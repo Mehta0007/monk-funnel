@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Monk Funnel
+
+**Performance marketing & website design agency — Delhi, India.**
+
+We design and build conversion-focused websites for Indian startups, paired with SEO and paid ads (Meta & Google) to drive real revenue. This is the marketing site for the agency.
+
+---
+
+## Tech Stack
+
+| Layer | Choice |
+|-------|--------|
+| Framework | Next.js 15 (App Router) |
+| Styling | Tailwind CSS v4 |
+| Language | TypeScript |
+| Fonts | Cormorant Garamond (serif) · Nimbus Sans (sans) |
+| Bundler | Turbopack |
+| Deployment | Vercel |
+
+---
+
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Landing page — hero, services, pixel section, testimonials, pricing, FAQ, CTA |
+| `/contact` | Contact form (Google Sheets integration ready) |
+| `/privacy-policy` | Privacy policy |
+| `/terms` | Terms of service |
+| `/refund` | Refund policy |
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build   # production build
+npm run lint    # ESLint
+npx tsc --noEmit  # type check
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+app/
+  page.tsx              # Home
+  contact/page.tsx      # Contact form
+  privacy-policy/       # Legal pages
+  terms/
+  refund/
+components/
+  Hero.tsx              # Full-bleed hero with animated dashboard mockup
+  Navbar.tsx            # Floating transparent navbar
+  ServicesSection.tsx   # 6-service grid
+  PricingSection.tsx    # 3-tier pricing cards with hover lift
+  FAQSection.tsx        # Smooth CSS-grid accordion
+  Footer.tsx            # Pixel-art footer with legal links
+  FloatingNPC.tsx       # Mario-style floating NPC with rotating quips
+public/
+  mf-logo.png           # Brand mark
+  *.avif / *.webp / *.png  # Pixel-art imagery and section decorations
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deployed on **Vercel**. Every push to `main` triggers an automatic deploy.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+git push origin main
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Contact
+
+**Monk Funnel** · Delhi, India  
+monkfunnel0@gmail.com · +91 88103 26598
