@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const SERIF  = "'Cormorant Garamond', Georgia, serif";
 const BORDER = "#d6cfc6";

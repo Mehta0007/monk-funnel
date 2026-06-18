@@ -1,12 +1,12 @@
-import Hero from "@/components/Hero";
-import ServicesSection from "@/components/ServicesSection";
-import WebsiteFactorySection from "@/components/WebsiteFactorySection";
-import PixelSection from "@/components/PixelSection";
-import PricingSection from "@/components/PricingSection";
-import FAQSection from "@/components/FAQSection";
-import CTASection from "@/components/CTASection";
-import Footer from "@/components/Footer";
-import FloatingNPC from "@/components/FloatingNPC";
+import Hero from "@/components/sections/Hero";
+import ServicesSection from "@/components/sections/ServicesSection";
+import WebsiteFactorySection from "@/components/sections/WebsiteFactorySection";
+import PixelSection from "@/components/sections/PixelSection";
+import PricingSection from "@/components/sections/PricingSection";
+import FAQSection from "@/components/sections/FAQSection";
+import CTASection from "@/components/sections/CTASection";
+import Footer from "@/components/layout/Footer";
+import FloatingNPC from "@/components/widgets/FloatingNPC";
 
 export default function Home() {
   return (
