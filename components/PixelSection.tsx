@@ -15,7 +15,7 @@ const pillars = [
 
 export default function PixelSection() {
   return (
-    <section id="about" className="relative overflow-hidden flex flex-col items-center justify-center min-h-[110svh] py-28 px-4">
+    <section id="about" className="relative overflow-hidden flex flex-col items-center justify-center min-h-[110svh] px-4">
 
       {/* Blue sky background */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -146,7 +146,7 @@ export default function PixelSection() {
       />
 
       {/* Content */}
-      <div className="relative z-20 flex flex-col items-center text-center max-w-2xl mx-auto">
+      <div className="relative z-20 flex flex-col items-center text-center max-w-2xl mx-auto pt-20 sm:pt-24">
         <h2 className="text-4xl sm:text-5xl lg:text-[56px] font-normal text-white leading-tight tracking-tight mb-10">
           Why founders choose<br />Monk Funnel.
         </h2>
