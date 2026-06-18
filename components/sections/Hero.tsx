@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "../layout/Navbar";
 import ScaledDashboard from "../widgets/ScaledDashboard";
 import DashboardMockup from "../widgets/DashboardMockup";
 
@@ -15,11 +14,8 @@ export default function Hero() {
       className="relative min-h-[100svh] overflow-hidden bg-cover bg-center flex flex-col"
       style={{ backgroundImage: `url("${BG_URL}")` }}
     >
-      {/* Navbar */}
-      <Navbar />
-
-      {/* Spacer: navbar → content */}
-      <div className="flex-1 min-h-8 sm:min-h-12 lg:min-h-16 shrink-0" />
+      {/* Spacer below fixed navbar */}
+      <div className="flex-1 min-h-20 shrink-0" />
 
       {/* Hero content */}
       <div className="relative z-10 flex flex-col items-center text-center px-4">

@@ -41,6 +41,7 @@ export default function FAQSection() {
 
   return (
     <section
+      id="faq"
       className="px-6 sm:px-12 lg:px-20 py-20 sm:py-28"
       style={{ background: "#F5F5F1" }}
     >

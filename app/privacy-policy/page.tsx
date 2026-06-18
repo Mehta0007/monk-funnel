@@ -11,14 +11,9 @@ export const metadata = {
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <header
-        className="sticky top-0 z-30"
-        style={{ background: "#F5F5F1", borderBottom: `1px solid ${BORDER}` }}
-      >
-        <Navbar />
-      </header>
+      <Navbar />
 
-      <main style={{ background: "#F5F5F1", minHeight: "100vh" }}>
+      <main style={{ background: "#F5F5F1", minHeight: "100vh", paddingTop: "72px" }}>
         <div className="max-w-3xl mx-auto px-6 sm:px-12 py-20 sm:py-28">
           <p className="text-[11px] tracking-widest uppercase mb-4" style={{ color: "#9a8c7e" }}>Legal</p>
           <h1

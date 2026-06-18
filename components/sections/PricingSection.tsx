@@ -116,7 +116,7 @@ function CheckIcon({ ok }: { ok: boolean }) {
 
 export default function PricingSection() {
   return (
-    <section className="px-6 sm:px-12 lg:px-20 py-20 sm:py-28 bg-white">
+    <section id="pricing" className="px-6 sm:px-12 lg:px-20 py-20 sm:py-28 bg-white">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">

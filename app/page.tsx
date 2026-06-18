@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import ServicesSection from "@/components/sections/ServicesSection";
 import WebsiteFactorySection from "@/components/sections/WebsiteFactorySection";
@@ -11,6 +12,7 @@ import FloatingNPC from "@/components/widgets/FloatingNPC";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Hero />
       <ServicesSection />
       <WebsiteFactorySection />

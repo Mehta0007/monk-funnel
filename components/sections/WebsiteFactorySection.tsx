@@ -34,6 +34,7 @@ const steps = [
 export default function WebsiteFactorySection() {
   return (
     <section
+      id="process"
       className="px-6 sm:px-12 lg:px-20 py-20 sm:py-28"
       style={{ background: "#F5F5F1" }}
     >

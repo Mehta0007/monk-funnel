@@ -5,10 +5,9 @@ export default function Logo({ className }: { className?: string }) {
     <Image
       src="/mf-logo.png"
       alt="Monk Funnel"
-      width={32}
-      height={32}
-      className={className}
-      style={{ width: "auto", height: "32px", objectFit: "contain" }}
+      width={40}
+      height={40}
+      className={`w-auto ${className || "h-8"}`}
       priority
     />
   );
