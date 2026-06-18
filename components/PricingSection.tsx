@@ -20,41 +20,39 @@ type Plan = {
 
 const plans: Plan[] = [
   {
-    name: "Starter",
+    name: "Launch",
     badge: null,
     img: "/Free.avif",
     priceLabel: "Starting at",
     priceSymbol: "₹",
     price: "24,999",
-    unit: "one-time project",
+    unit: "one-time",
     highlighted: false,
     features: [
       { text: "Up to 7 pages", ok: true },
       { text: "Mobile-first responsive design", ok: true },
-      { text: "Basic on-page SEO setup", ok: true },
+      { text: "On-page SEO setup", ok: true },
       { text: "2 rounds of revisions", ok: true },
       { text: "30-day post-launch support", ok: true },
-      { text: "Ongoing ad management", ok: false },
-      { text: "Monthly strategy calls", ok: false },
+      { text: "Shipped in 21 days", ok: true },
+      { text: "Ongoing growth channel", ok: false },
     ],
     cta: { label: "Get started", href: "/contact" },
   },
   {
-    name: "Growth",
+    name: "Launch + Grow",
     badge: null,
     img: "/Pro.avif",
     priceLabel: "Starting at",
     priceSymbol: "₹",
     price: "18,999",
-    unit: "/ month",
+    unit: "/ mo after launch",
     highlighted: true,
     features: [
-      { text: "Everything in Starter", ok: true },
-      { text: "SEO & content strategy", ok: true },
-      { text: "Meta or Google Ads (1 channel)", ok: true },
+      { text: "Everything in Launch", ok: true },
+      { text: "One growth channel (SEO or ads)", ok: true },
       { text: "Monthly performance report", ok: true },
       { text: "Bi-weekly strategy calls", ok: true },
-      { text: "Full funnel design & build", ok: false },
       { text: "Multi-channel ad management", ok: false },
     ],
     cta: { label: "Start growing", href: "/contact" },
@@ -126,15 +124,15 @@ export default function PricingSection() {
             className="font-normal leading-tight mb-4"
             style={{ fontSize: "clamp(32px, 5vw, 58px)", color: "#1e180f" }}
           >
-            <span style={{ color: "#9a8c7e" }}>Start lean. </span>
-            <span style={{ fontFamily: SERIF }}>Scale without limits.</span>
+            <span style={{ color: "#9a8c7e" }}>Start with the website. </span>
+            <span style={{ fontFamily: SERIF }}>Scale from there.</span>
           </h2>
           <p
             className="text-[15px] max-w-md mx-auto"
             style={{ color: "#7a6a58" }}
           >
-            Transparent pricing for real businesses — no lock-in shocks, no
-            surprise invoices.
+            Every tier starts with a conversion-first website — then adds growth
+            channels once you&apos;re live and ready to scale.
           </p>
         </div>
 

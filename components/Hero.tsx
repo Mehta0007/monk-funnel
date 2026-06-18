@@ -27,17 +27,17 @@ export default function Hero() {
         <div
           className="animate-fade-down mb-4 inline-flex items-center gap-2 rounded-full bg-white/60 backdrop-blur-md ring-1 ring-gray-200 px-4 py-1.5"
         >
-          <span className="text-[11px] tracking-widest text-gray-500 uppercase">Website Design &amp; Development · Delhi, India</span>
+          <span className="text-[11px] tracking-widest text-gray-500 uppercase">Conversion-First Websites · Shipped in 21 days</span>
         </div>
 
         {/* Headline */}
         <h1 className="text-gray-900 font-normal leading-[1.05] tracking-tight text-[40px] min-[400px]:text-[44px] sm:text-6xl lg:text-7xl xl:text-[80px]">
-          <span className="block animate-fade-up">Beautiful Websites.</span>
+          <span className="block animate-fade-up">Your website should be</span>
           <span
             className="block animate-fade-up"
             style={{ animationDelay: "100ms" }}
           >
-            Real Results.
+            your best salesperson.
           </span>
         </h1>
 
@@ -46,13 +46,13 @@ export default function Hero() {
           className="animate-fade-up mt-4 sm:mt-5 text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed max-w-lg"
           style={{ animationDelay: "220ms" }}
         >
-          We design and build conversion-focused websites for Indian startups —
-          then drive traffic with SEO and paid ads that actually convert.
+          Most startup sites explain the product. We build the one that sells the decision —
+          rebuilt around one outcome, one message, one action, and shipped in 21 days.
         </p>
 
         {/* CTA buttons */}
         <div
-          className="animate-fade-up mt-5 sm:mt-6 flex flex-wrap items-center justify-center gap-3"
+          className="animate-fade-up mt-5 sm:mt-6 flex flex-wrap items-center justify-center gap-4"
           style={{ animationDelay: "340ms" }}
         >
           <a
@@ -67,23 +67,20 @@ export default function Hero() {
               display: "inline-block",
             }}
           >
-            Start Your Project
+            Get a free homepage teardown
           </a>
           <Link
-            href="/#pricing"
+            href="/#services"
             style={{
-              background: "rgba(255,255,255,0.70)",
-              color: "#1e180f",
+              color: "#374151",
               fontSize: "14px",
-              fontWeight: 500,
-              padding: "10px 24px",
-              borderRadius: "999px",
+              fontWeight: 400,
               display: "inline-block",
-              border: "1px solid rgba(0,0,0,0.10)",
-              backdropFilter: "blur(8px)",
+              textDecoration: "underline",
+              textUnderlineOffset: "3px",
             }}
           >
-            See Pricing
+            See how it works
           </Link>
         </div>
       </div>

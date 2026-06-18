@@ -72,7 +72,7 @@ export default function Navbar() {
           ))}
 
           <Link href="/contact" style={{ ...CTA_STYLE, marginLeft: "10px" }}>
-            Book a call
+            Get a free teardown
           </Link>
         </div>
 
@@ -132,7 +132,7 @@ export default function Navbar() {
                 padding: "12px 0",
               }}
             >
-              Book a call
+              Get a free teardown
             </Link>
           </div>
         </div>

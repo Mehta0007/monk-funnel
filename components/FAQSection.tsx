@@ -7,12 +7,12 @@ const BORDER = "#d6cfc6";
 
 const faqs = [
   {
-    q: "What services does Monk Funnel offer?",
-    a: "We cover the full growth stack — SEO, paid ads (Google & Meta), conversion-focused website design and development, landing pages, and funnel strategy. Think of us as the team that turns traffic into revenue.",
+    q: "What does Monk Funnel actually do?",
+    a: "We build conversion-first websites for startups — every page structured around a single outcome, shipped in 21 days. Once your site is live and converting, we help you scale it with SEO and paid ads.",
   },
   {
     q: "How long does a website project take?",
-    a: "Most sites go from brief to live in 2–4 weeks. Complex builds with custom features or e-commerce can run 5–8 weeks. We'll give you a clear timeline before we start — and stick to it.",
+    a: "21 days for most sites, brief to live. We'll give you a clear timeline before we start — and hold ourselves to it.",
   },
   {
     q: "Do you work with early-stage startups?",
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: "What makes Monk Funnel different from other agencies?",
-    a: "We don't traffic in vanity metrics. Every decision is tied to revenue — more leads, lower cost-per-acquisition, higher ROAS. Small enough to care about your business, experienced enough to know what works.",
+    a: "We treat your website as a salesperson, not a brochure. Most agencies design something that looks good and hope it works. We build around the one decision your visitor needs to make — and we ship it in 21 days instead of dragging it out for months.",
   },
 ];
 

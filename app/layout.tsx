@@ -3,9 +3,9 @@ import "./globals.css";
 import "nes.css/css/nes.min.css";
 
 export const metadata: Metadata = {
-  title: "Monk Funnel — Delhi's Performance Marketing Agency",
+  title: "Monk Funnel — Conversion-First Websites for Startups",
   description:
-    "Delhi's performance-driven agency for startups and tech brands — SEO, paid ads, funnels, and websites that convert.",
+    "We build conversion-focused websites for startups and ship in 21 days — then help you grow with SEO and paid ads when you're ready.",
 };
 
 export default function RootLayout({

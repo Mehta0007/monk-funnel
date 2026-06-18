@@ -2,7 +2,7 @@ const steps = [
   {
     num: "01",
     title: "Discover",
-    body: "We listen before we sketch — goals, audience, and the story only you can tell.",
+    body: "Before we design anything, we find the one outcome this site has to drive and the one person it has to convince. That answer becomes the headline.",
   },
   {
     num: "02",
@@ -114,7 +114,7 @@ export default function WebsiteFactorySection() {
             className="text-[13px]"
             style={{ fontFamily: SERIF, fontStyle: "italic", color: "#a09080" }}
           >
-            Typically 2–4 weeks from brief to live site.
+            21 days, brief to live.
           </p>
         </div>
 

@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import ServicesSection from "@/components/ServicesSection";
 import WebsiteFactorySection from "@/components/WebsiteFactorySection";
 import PixelSection from "@/components/PixelSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import PricingSection from "@/components/PricingSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
@@ -16,7 +15,6 @@ export default function Home() {
       <ServicesSection />
       <WebsiteFactorySection />
       <PixelSection />
-      <TestimonialsSection />
       <PricingSection />
       <FAQSection />
       <CTASection />
